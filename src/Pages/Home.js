@@ -1,6 +1,7 @@
 import React from 'react'
 import Style from './Home.module.css'
 import Header from '../Components/Header'
+import ProjectCard from '../Components/ProjectCard'
 
 function Home() {
     return (
@@ -33,6 +34,45 @@ function Home() {
                </div>
             </div>
             </div>
+
+            <div className={Style.quotesContainer}>
+            <div className={Style.quotes}>
+               <p>With great power comes great electricity bill</p>
+            </div>
+
+            <div className={Style.author}>
+               <p>- Me</p>
+            </div>
+
+            </div>
+
+            <div className={Style.sectionTwoContainer}>
+                <div className={Style.sectionTwoHeader}>
+                  <div className={Style.projectTitle}>
+                      <p><span>/</span>projects</p>
+                  </div>
+
+                  <div className={Style.stroke}>
+
+                  </div>
+
+                  <div className={Style.viewAllBtn}>
+                     <p>View all ~~{`>`} </p>
+                  </div>
+                </div>
+
+                <div className={Style.projectSection}>
+                <div className={Style.projectHead}>
+                     <p><span style={{color:"#C778DD"}}>#</span>complete-apps</p>
+                </div>
+
+                <div className={Style.projectGrid}>
+                     <ProjectCard/>
+                </div>
+
+                </div>
+            </div>
+
 
             </Header>
         </>
