@@ -106,6 +106,20 @@
     justify-content: space-between;
 }
 
+.skillSection{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 165px;
+    font-family: 'Fira Code';
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 165px;
+    font-family: 'Fira Code';
+}
+
 .projectTitle{
     font-style: normal;
     font-weight: 500;
@@ -142,3 +156,79 @@
     line-height: 42px;
     color: #FFFFFF;
 }
+
+.projectGrid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.skillInnerSection{
+    display: flex;
+}
+
+.skillInnerLeft{
+    flex:4;
+}
+
+.skillInnerRight1{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skillInnerRight2{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skillInnerRight3{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card{
+    width: 196px;
+    border: 1px solid #ABB2BF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.cardHead{
+    height: 25px;
+    border-bottom: 1px solid #ABB2BF;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.cardDesc{
+    display: flex;
+    align-items: center;
+    color: #ABB2BF;
+    padding: 0px 10px;
+}
+
+.aboutMeRight{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #ABB2BF;
+}
+
+.aboutMeLeft{
+    flex: 5;
+} 
